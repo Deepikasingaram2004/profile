@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Deepika</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="introduction" class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Deepika, a Btech student studing in information technology in 3rd year.i have more intrest in web development.</p>
+        </section>
+
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <ul id="skillsList">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>java</li>
+                
+            </ul>
+            <button id="toggleSkills">Show More Skills</button>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project1.png" alt="Project 1">
+                <h3>RESTARUNT website</h3>
+            
+            </div>
+          
+               
+            <div class="project">
+                <img src="project3.png" alt="Project 3">
+                <h3>Library Management</h3>
+                <p>A Library Management for student in our department.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Deepika</p>
+            <p>Follow me on <a href="https://www.linkedin.com/in/deepika-s-0474672a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> and <a href="https://github.com/Deepikasingaram2004/restarunt.git" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
